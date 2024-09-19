@@ -1,10 +1,9 @@
 <?php
- $var=array(12,32,45,87);
-  
-  $s=array_search($var);
- 
-    echo(
-
-
-
+ $var=array("1"=>"34","2"=>"45","3"=>"76");
+    print_r($var);
+ $t=array_search(45,$var);
+  if($t==false)
+   echo("not found");
+  else
+   echo("<br> element found position=".$t);
 ?>
