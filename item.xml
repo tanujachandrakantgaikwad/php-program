@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <item>
+     <info>
+        <ino>101</ino>
+        <desc>pen</desc>
+        <qty>10</qty>
+         <rate>8</rate>
+      </info>
+     <info>
+        <ino>102</ino>
+        <desc>pencil</desc>
+        <qty>20</qty>
+         <rate>25</rate>
+      </info>
+     <info>
+        <ino>103</ino>
+        <desc>Book</desc>
+        <qty>10</qty>
+         <rate>50</rate>
+      </info>
+</item>

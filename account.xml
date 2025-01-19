@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <account>
+    <info>
+      <ano>1</ano>
+      <aname>om</aname>
+      <address>pune</address>
+      <branch>ICICI Bank</branch>
+      <atype>current account</atype>
+      <balance>500000</balance>
+  </info>  
+    <info>
+      <ano>2</ano>
+      <aname>omkar</aname>
+      <address>nashik</address>
+      <branch>cenera Bank</branch>
+      <atype>saveing account</atype>
+      <balance>100000</balance>
+   </info>
+     <info>
+      <ano>3</ano>
+      <aname>sai</aname>
+      <address>shidri</address>
+      <branch>IBI Bank</branch>
+      <atype>current account</atype>
+      <balance>200000</balance>
+   </info>
+</account>

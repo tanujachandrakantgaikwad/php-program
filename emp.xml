@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-16"?>
+  <cemployee>
+       <team name="red">
+           <ename>om</ename>
+           <expreience>5</expreience>
+           <emobno>9373337032</emobno>
+           <eaddress>pune</eaddress> 
+      </team>
+      <team name="pink">
+           <ename>omkar</ename>
+           <expreience>2</expreience>
+           <emobno>704010032</emobno>
+           <eaddress>nashik</eaddress> 
+      </team>
+     <team name="orange">
+           <ename>sai</ename>
+           <expreience>10</expreience>
+           <emobno>9922971329</emobno>
+           <eaddress>shirdi</eaddress> 
+      </team>
+
+     
+ </cemployee>

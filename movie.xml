@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-16"?>
+ <movies>
+      <category type="classical">
+         <moviename>KGF</moviename>
+         <actorname>prabhas</actorname>
+         <releaseyear>2022</releaseyear>
+      </category>
+     <category type="harror">
+         <moviename>pizz</moviename>
+         <actorname>vijay</actorname>
+         <releaseyear>2017</releaseyear>
+      </category>
+     <category type="action">
+         <moviename>adipurush</moviename>
+         <actorname>prabhas</actorname>
+         <releaseyear>2023</releaseyear>
+      </category>
+</movies>
