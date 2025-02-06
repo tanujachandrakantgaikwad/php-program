@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <player>
+  <info>
+     <country>pune</country>
+      <pname>om</pname>
+      <wicket>3</wicket>
+      <run>56</run>
+   </info>
+<info>
+     <country>mumbai</country>
+      <pname>omkar</pname>
+      <wicket>5</wicket>
+      <run>71</run>
+   </info>
+<info>
+     <country>shirdi</country>
+      <pname>sai</pname>
+      <wicket>1</wicket>
+      <run>16</run>
+   </info>
+
+</player>
