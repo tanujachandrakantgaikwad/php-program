@@ -1,21 +1,20 @@
-
-10. Write a PHP Script to display Armstrong 
-numbers between 1 to 500. 
-
-
-<?php
- for($n1=1;$n1<500;$n1++) 
- {
-    $s=0; 
-  $n=$n1;
- while((int)$n>0)
-  {
-   $d=$n%10;
-   $s=$s+($d*$d*$d);
-   $n=(int)$n/10;
-
-  }
- if($s==$n1)
-echo("<br> armstorng no=".$s);
-}
+<html>
+   <body>
+     <form method="post" action="<?php echo($_SERVER['PHP_SELF']);?>">
+         Enter Indian currency in rs:
+           <input type="text"  name="t1"><br>
+          <input type="radio" name="r1" value="dollar">dollar<br>
+           <input type="radio" name="r1" value="pound">pound<br>
+       <input type="submit" value="ok"> 
+   </form>
+  </body>
+</html>
+<?php 
+     $rs=$_POST['t1'];
+     $dp=$_POST['r1'];
+       if($dp=="dollar")
+           echo("<br> rs in dollar=".$rs/86);
+       else
+           echo("<br> rs in pound=".$rs/104);
 ?>
+  

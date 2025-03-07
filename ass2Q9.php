@@ -1,23 +1,20 @@
-9. Write a PHP Script to display the reverse
- of a number. E.g. 607 =>706 
 <html>
- <body>
- <form method="post" action="#">
-   Enter no:
-   <input type="text" name="t1"><br>
-   <input type="submit" value="ok"><br>
- </form> 
-</body>
+   <body>
+     <form method="post" action="#">
+         Enter string1:
+           <input type="text"  name="t1" value="<?php  echo($_POST['t1']);?>"><br>
+       Enter string2:
+          <input type="text" name="t2" value="<?php  echo($_POST['t2']);?>"><br>
+       <input type="submit" value="ok"> 
+   </form>
+  </body>
 </html>
-<?php
- $n=$_POST["t1"];
-  $r=0;
- while((int)$n>0)
- {
-   $d=$n%10;
-   $r=$r*10+$d;
-   $n=(int)$n/10;
-
- }
-echo("<br> reverse no=".$r);
+<?php 
+     $s1=$_POST["t1"];
+     $s2=$_POST["t2"];
+       if($s1==$s2)
+           echo("<br> string are same");
+       else
+           echo("<br> string are not same");
 ?>
+  

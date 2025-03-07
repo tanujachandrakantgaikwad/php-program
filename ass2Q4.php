@@ -1,17 +1,26 @@
- 4.Write a PHP Script to check whether a year is a leap or not.
-
 <html>
- <body>
-   <form method="post" action="#">
-     Enter year=
-       <input type="number" name="t1"><br>
-    <input type="submit" value="ok"> <br>
-</body>
+   <body>
+     <form method="post" action="#">
+         Enter name:
+           <input type="text"  name="t1" ><br>
+       select cities name you would  to visit:
+        <select name="s1[]" mutilpe>
+          <option> pune</option>
+         <option>nashik</option>
+         <option>mumbai</option>
+          <option> wadala</option>
+      </select>     <br>
+       <input type="submit" value="ok"> 
+   </form>
+  </body>
 </html>
-<?php
- $y=$_POST["t1"];
- if($y%4==0)
-   echo("leap year");
- else
-  echo("not leap year");  
+<?php 
+   $s=$_POST["t1"];
+   $a=$_POST["s1"];
+    echo("<br> Name=".$s);
+     foreach($a as $f)
+       {
+           echo("<br>".$f);
+      }    
 ?>
+  

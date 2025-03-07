@@ -1,18 +1,17 @@
-8. Write a PHP Script to display a perfect numbers between 1 to100.
-
+<html>
+   <body>
+     <form method="post" action="#">
+     <h1>SERVER INFO...</h1>
+   </form>
+   </body>
+</html>
 <?php
+  $server=["server name"=>$_SERVER['SERVER_NAME'],
+                    "server addr"=>$_SERVER['SERVER_ADDR']];
 
-
- for($n=1;$n<100;$n++)
-  {
- $s=0;
- for($i=1;$i<$n;$i++)
- {
-   if($n%$i==0)
-     $s=$s+$i;
- }
-
-if($s==$n)
-   echo("<br><br>perfect=".$n); 
- }
+ foreach($server as $key=>$value)
+{
+   echo("<tr><td><strong>$key</strong></td>
+         <td><strong>$value</strong></td></tr>");
+}
 ?>

@@ -1,16 +1,29 @@
- 
-7. Write a PHP Script to display prime numbers between 1 to 50. 
-<?php
+     <html>
+   <body>
+ <form method="post" action="#">
+       Select Languages:         
+    <input type="checkbox"  name="c1[]"  value="PHP"
+       <?php  if(isset($_POST['c1[]'])&&
+          in_array('PHP',$_POST['c1'])) echo("checked");?>>PHP<br>
 
- for($n=2;$n<50;$n++)
-  {
- for($i=2;$i<$n;$i++)
- {
-   if($n%$i==0)
-     break;
- }
+            <input type="checkbox"  name="c1[]"  value="CPP"
+       <?php  if(isset($_POST['c1[]'])&&
+       in_array('CPP',$_POST['c1'])) echo("checked");?>>CPP<br>
 
-if($i==$n)
-   echo("<br>prime".$n); 
- }
+            <input type="checkbox"  name="c1[]"  value="JAVA"
+       <?php  if(isset($_POST['c1[]'])&&
+         in_array('JAVA',$_POST['c1'])) echo("checked");?>>JAVA<br>
+
+            <input type="checkbox"  name="c1[]"  value="DBMS"
+       <?php  if(isset($_POST['c1[]'])&&
+          in_array('DBMS',$_POST['c1'])) echo("checked");?>>DBMS<br>
+             <input type="submit" value="ok"> 
+   </form>
+  </body>
+</html>
+<?php 
+     $s1=$_POST["c1"];
+      print_r($s1);
+     
 ?>
+  

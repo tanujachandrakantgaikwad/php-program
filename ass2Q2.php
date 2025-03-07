@@ -1,16 +1,15 @@
- 2. Write a PHP Script to check whether a number is positive or negative. 
 <html>
- <body>
-   <form method="post" action="#">
-     enter no=
-       <input type="number" name="t1"><br>
-    <input type="submit" value="ok"> <br>
-</body>
+  <body>
+  <form method="post" action="ass2Q2i">
+      Enter User_id:
+      <input type="text" name="t1"><br> 
+   Enter Name:
+      <input type="text" name="t2"><br>
+  Enter Adddress:
+      <input type="text" name="t3"><br>
+  Enter Moblie no:
+      <input type="text" name="t4"><br>
+    <input type="submit">
+ </form>
+ </body>
 </html>
-<?php
- $n1=$_POST["t1"];
-   if($n1>0)
-      echo(" number is positive ");
-    else
-      echo("number is negative ");
-?>
