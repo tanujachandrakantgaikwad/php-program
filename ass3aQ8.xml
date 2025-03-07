@@ -1,0 +1,21 @@
+<breakfast_menu>
+  <food category="vegetable">
+  <name>French fries</name>
+  <price>Rs45</price>
+ <description>Young Youths are very much intrested to eat it</description>
+ <calories>650</calories>
+ </food>
+ <food Category="Nonveg">
+  <name>Biryani</name>
+  <price>Rs160</price>
+ <description>Young Youths are very much intrested to eat it</description>
+ <calories>950</calories>
+ </food>
+ <food category="juice">
+  <name>monge</name>
+  <price>Rs60</price>
+ <description>Young Youths are very much intrested to eat it</description>
+ <calories>250</calories>
+ </food>
+
+</breakfast_menu>

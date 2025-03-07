@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <Book> 
+       <info>
+          <bno>101</bno>
+          <bname>PHP</bname>
+           <author>om</author>
+            <year>2015</year>
+            <price>150</price>
+        </info>
+        <info>
+          <bno>102</bno>
+          <bname>JAVA</bname>
+           <author>omkar</author>
+            <year>2013</year>
+            <price>50</price>
+        </info>
+        <info>
+          <bno>103</bno>
+          <bname>CPP</bname>
+           <author>sai</author>
+            <year>2020</year>
+            <price>100</price>
+        </info>
+
+   </Book>

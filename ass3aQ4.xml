@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Course>
+    <SYBBACA>
+           <studentname>tanuja</studentname>
+           <classname>SY</classname>
+           <per>91.20</per>
+  </SYBBACA>
+ <SYBBACA>
+           <studentname>tanmay</studentname>
+           <classname>TY</classname>
+           <per>67.20</per>
+  </SYBBACA>
+  <SYBBACA>
+           <studentname>om</studentname>
+           <classname>FY</classname>
+           <per>78.80</per>
+  </SYBBACA>
+  <SYBBACA>
+           <studentname>omkar</studentname>
+           <classname>FY</classname>
+           <per>47.80</per>
+  </SYBBACA>
+      <SYBBACA>
+           <studentname>maya</studentname>
+           <classname>TY</classname>
+           <per>88.80</per>
+  </SYBBACA>
+   </Course>

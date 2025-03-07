@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-16"?>
+ <cricketteam>
+       <team country="india">
+          <player>virat kohli</player>
+          <runs>150</runs>
+          <wicket>3</wicket>
+       </team>
+        <team country="australia">
+          <player> shubman gill</player>
+          <runs>159</runs>
+          <wicket>2</wicket>
+       </team>
+         <team country="india">
+          <player>Rohit sharma</player>
+          <runs>200</runs>
+          <wicket>1</wicket>
+       </team>
+</cricketteam>

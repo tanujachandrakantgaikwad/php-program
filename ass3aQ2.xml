@@ -1,0 +1,20 @@
+<CemployeeTeam>
+    <Team Name="Red">
+       <Ename>om</Ename>
+       <Eexperience>6 year</Eexperience>
+       <Emobno>867665534</Emobno>
+       <Eaddress>Pune</Eaddress>
+   </Team>
+ <Team Name="green">
+       <Ename>omkar</Ename>
+       <Eexperience>2 year</Eexperience>
+       <Emobno>53543265534</Emobno>
+       <Eaddress>Mumbai</Eaddress>
+   </Team>
+<Team Name="bule">
+       <Ename>tanuja</Ename>
+       <Eexperience>3 year</Eexperience>
+       <Emobno>9373337032</Emobno>
+       <Eaddress>wadala</Eaddress>
+   </Team>
+</CemployeeTeam>
